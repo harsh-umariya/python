@@ -1,0 +1,15 @@
+def change():
+    amt=float(input("enter value in USD : "))
+    print("qut : ",qut[0])
+    amt=round(qut[1],2)
+    dime=divmod(amt,0.010)
+    print("dime : ",dime[0])
+    amt=round(dime[1],2)
+    nic=divmod(amt,0.05)
+    print("nic : ",nic[0])
+    amt=round(nic[1],2)
+    pe=divmod(amt,0.01)
+    print("pe : ", pe[0])
+    amt=round(pe[1],2)
+change()
+        
