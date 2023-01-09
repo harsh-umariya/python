@@ -4,8 +4,8 @@ def ch(x):
         if x%i==0:
             cont=cont+1
     if cont>=2:
-        print("Number Is Not Prime")
+        print("number is not prime")
     else:
-        print("Number Is Prime")
-x=int(input("Enter Number : "))
+        print("number is prime")
+x=int(input("Enter number : "))
 ch(x)
